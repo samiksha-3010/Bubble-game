@@ -41,18 +41,7 @@ function runTimer(){
       },1000);
   }
 
-// function runTimer(){
-//       var timerint =  setInterval(function(){
-//             if(timer > 0){
-//                   timer--;
-//                   document.querySelector("#timerval").textContent = timer;
-//             }else{
-//                clearInterval(timerint);
-//                document.querySelector("#pbtm").innerHTML = `<h1>Game  Over ...<h1/>`;
-//             }
-           
-//       },1000)
-// }
+
 
 document.querySelector("#pbtm")
 .addEventListener("click",function(details){
